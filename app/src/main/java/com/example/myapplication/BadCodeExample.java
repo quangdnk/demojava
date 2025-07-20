@@ -10,12 +10,9 @@ public class BadCodeExample {
 
     public void doSomething(int value) {
         if (value == 0) {
-            int result = 10 / value; // lỗi chia cho 0
-            System.out.println("Result: " + result);
+            System.out.println("Cannot divide by zero.");
         } else if (value == 5) {
             System.out.println("Five");
-        } else if (value == 5) { // duplicated condition
-            System.out.println("Still Five");
         } else {
             System.out.println("Value: " + value);
         }
