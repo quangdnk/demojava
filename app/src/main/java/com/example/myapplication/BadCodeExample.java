@@ -1,9 +1,7 @@
 package com.example.myapplication;
-import java.util.logging.Logger;
 
 public class BadCodeExample {
-    private static final Logger logger = Logger.getLogger(BadCodeExample.class.getName());
-
+    
     public static void main(String[] args) {
         System.out.println("Start");
         BadCodeExample example = new BadCodeExample();
@@ -13,12 +11,11 @@ public class BadCodeExample {
 
     public void doSomething(int value) {
         if (value == 0) {
-            logger.warning("Cannot divide by zero.");
+            System.out.println("Cannot divide by zero.");
         } else if (value == 5) {
-            logger.warning("Five");
+            System.out.println("Five");
         } else {
-            logger.warning("Value: " + value);
-            System.out.println("Check fail");
+            System.out.println("Value: " + value);
         }
     }
 
