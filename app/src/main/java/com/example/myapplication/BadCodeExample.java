@@ -18,6 +18,7 @@ public class BadCodeExample {
             logger.warning("Five");
         } else {
             logger.warning("Value: " + value);
+            System.out.println("Check fail");
         }
     }
 
