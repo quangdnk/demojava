@@ -10,7 +10,7 @@ public class BadCodeExample {
 
         System.out.println("Starting..."); // ❌ Sonar: Avoid using System.out
 
-        String unusedVariable = "I am not used"; // ❌ Sonar: Remove unused variables
+        String unusedVariable = "I am not used"; // ❌ Sonar: Remove unused variables    
 
         for (int i = 0; i < 10; i++) {
             if (i == 1 || i == 1) { // ❌ Sonar: Duplicated condition
