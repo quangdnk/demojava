@@ -7,7 +7,7 @@ public class BadCodeExample {
     public static void main(String[] args) {
         System.out.println("Start");
         BadCodeExample example = new BadCodeExample();
-        example.doSomething(5);
+        example.doSomething(5); 
         example.doSomething(0);
     }
 
